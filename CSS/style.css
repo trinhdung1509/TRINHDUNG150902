@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fraunces:wght@800&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fraunces:wght@300;400;800&family=Roboto:wght@300;400;500&display=swap');
+*{
+margin:0;
+padding:0;	
+} 
+.navbar{
+	background-color:#FFFFFF;padding:0 450px;
+	overflow: hidden;
+}
+.navbar a{
+	padding: 18px;display: inline-block;
+	text-decoration: none;float: left;
+	color:#0d7c7e ; 
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.navbar a:hover{
+	background-color:#F3F2F2;  
+}
+#Banner{
+	background-image: url("../IMG/chungtacuahientai (1).png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 900px;	
+}
+.noidungbanner {
+	text-align: center;
+	
+}
+.noidungbanner h1{
+	font-size: 70px;
+	color: white;
+	padding-top:130px;
+	padding-bottom: 15px;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Roboto', sans-serif;
+	
+}
+.noidungbanner i {
+	font-size:30px;
+	color: white; 
+	font-family: 'Alfa Slab One', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Roboto', sans-serif;
+	
+	
+}
+#Artist {
+	height: 600px;
+
+}
+.ART h1 {
+	text-align: center;
+	font-size: 2em;
+	word-spacing: 3px; 
+	padding: 60px;
+	font-family: 'Roboto', sans-serif;
+}
+.ART p{
+	white-space: pre;
+	font-size: 1em;
+	padding: 0 100px;
+	font-family: 'Roboto', sans-serif;
+}
+.ART img{
+		position: absolute;right: 200px;top:1100px;
+	    width: 400px;
+}
+
+#Follow h1 {
+	text-align: center;
+	padding: 30px;
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.item{
+	text-align: center;
+	height: 200px;
+}
+.item i{
+	color: #565656;
+	font-size: 70px;
+	padding: 60px 70px;
+}
+.item a:hover{
+	opacity: 50%;
+} 
+
+#prouct-container{
+display: flex;
+	background-color: #FFFFFF;padding: 70px 0;
+	
+}
+
+#prouct-container .sanpham{
+	width: 100%;
+	display: flex;justify-content: center;
+}
+#prouct-container .item img{
+	width: 100%;
+	opacity: 0.8;
+}
+#prouct-container .item img:hover{
+	opacity: 1;
+}
+#prouct-container .item{
+	height: 370px;
+	background-color: #F8F8F8;margin: 0 1%;
+	width: 35%;padding: 1% ;text-align: justify;
+}
+#prouct-container .item h4{
+	padding: 10px 0;
+	font-family: 'Roboto', sans-serif;;font-size: 1.5em;
+	
+}
+#prouct-container .item p{
+	padding: 1px 0 ;
+	font-family: 'Roboto', sans-serif;
+}
+#prouct-container .item a{
+	color: #0d7c7e;
+	font-family: 'Roboto', sans-serif;
+}
+	
+
+.amnhac h1{ 
+	font-family: 'Roboto', sans-serif;;font-size: 2em;; 
+	text-align: center;
+}
+#Gallery{
+	text-align: center;
+	padding: 30px 150px;
+}
+#Gallery h1{
+	font-size: 2em;
+	padding: 10px 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+#Gallery ul a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}	
+#Gallery ul li{
+	display: inline;
+	padding:  0 25px;
+}
+.hinh{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 300px;
+	margin-top:  50px;
+	grid-gap: 15px;
+}
+.item1{
+	background-image:url("../IMG/mtp123.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+.item2{
+	background-image:url("../IMG/mtp456.jpg") ;
+	background-size: cover;
+	background-position: center;
+}
+.item3{
+	background-image: url("../IMG/3323.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}	
+.item4{
+	background-image:url("../IMG/hihi.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+.item5{
+	background-image:url("../IMG/sffd.jpg") ;
+	background-size: cover;
+	background-position: center;
+}
+.item6{
+	background-image: url("../IMG/hoho.jpg");
+	background-size: cover;
+	background-position: center;
+}	
+.item7{
+	background-image:url("../IMG/mimi.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.item8{
+	background-image:url("../IMG/meme.jpg") ;
+	background-size: cover;
+	background-position: center;
+}
+.item9{
+	background-image: url("../IMG/mumu.jpg");
+	background-size: cover;
+	background-positi;on: center;
+	height: 300px	
+}
+
+	.news h1{
+	text-align: center;
+	padding: 40px;
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+}
+.rows{
+	display: flex;
+	align-items: center;
+	width: 80%;
+	
+	
+}
+.rows .col img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	padding: 0 0 15px;
+}
+.rows .col img:hover{
+	opacity: 50%;
+}
+.rows .col h4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+.rows .col p{
+	font-family: 'Roboto', sans-serif;
+}
+#BAO .rows{
+	margin: 10px 0 20px 300px;
+}
+.Cuahang-list{
+	text-align: center;
+	justify-content: space-between;
+	width:90%;
+	Margin : 0 auto;
+	display: flex;
+
+	
+}
+.sp-list{
+	
+	float: left;
+    
+	font-family: 'Roboto', sans-serif;
+}
+.sanpham-img  {
+	width: 250px;
+	padding-top: 20px ;
+	
+	
+	
+}
+.Cuahang h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	padding: 50px 60px;
+	text-align: center;
+}
+footer{
+	text-align: center;font-family: 'Roboto', sans-serif;
+	background: #F7F7F7;
+	padding-top: 30px;
+}
+.footer-bt{
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+.footer-content h3{
+	padding: 10px;font-family: 'Roboto', sans-serif;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2021-11-9 22:3:1
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-out-contract
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-out-contract {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+@keyframes tracking-out-contract {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+}
+.noidungbanner {
+	-webkit-animation: tracking-out-contract 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s infinite ;
+	        animation: tracking-out-contract 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s infinite ;
+}

@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body a{
+	Position:absolute;
+	padding: 10px 20px;
+
+}
+Body>a>button{
+	border: none;
+	padding: 5px 20px;
+	border: 5px solid #0d7c7e;
+	background-color: transparent;
+	color: #FFFFFF;
+}
+.contact-section{
+	background: url("../IMG/20190813164731-17bd.jpg") ;
+	background-size: cover;
+	padding: 40px 0;
+	
+}
+.contact-section h1{
+	text-align: center;
+	color: #FFFFFF;padding: 20px;
+	font-size: 50px;
+}
+.border{
+	width: 100px;
+	height: 5px;
+	background: #0d7c7e;
+	margin: 40px auto;
+}
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding:  0 10px;
+	overflow: hidden;
+}
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #FFFFFF;
+	padding: 20px 40px;
+	outline: none;
+	color: #2D2C2C;
+	transition:0.5s;
+}
+.contact-form-text:focus{
+	box-shadow:  0  0 10px 4px #0d7c7e;
+}
+textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+}
+.contact-form-btn{
+	float: right;
+	border: 0;
+	background: #0d7c7e;
+	color: #fff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transform: 0.5s;
+	width: 31px;
+}
+.contact-form-btn:hover{
+	background: #52ABA1;
+}
+footer{
+	text-align: center;font-family: 'Roboto', sans-serif;
+	background: #F4F4F4;
+	padding-top: 30px;
+}
+.footer-bt{
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+.footer-content h3{
+	padding: 10px;font-family: 'Roboto', sans-serif;
+}
+
